@@ -27,7 +27,7 @@ In industry-facing projects, I contributed to a stealth-stage AI startup, develo
 
 Driven by a passion for **embodied AI** and its safe real-world applications, I aim to build **human-centered, trustworthy intelligent systems**.  
 
-##📌 I’m actively seeking **Fall 2025 internship or full-time roles** in **Machine Learning Engineering**, **Robotics**, **Applied AI**, or **Software Development**.
+## 📌 I’m actively seeking **Fall 2025 internship or full-time roles** in **Machine Learning Engineering**, **Robotics**, **Applied AI**, or **Software Development**.
 Feel free to reach out or connect!
 
 
