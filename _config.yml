@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Jing Shao | Homepage"
+title                    : "Jing Shao"
 description              : "Graduate student at Northeastern University"
 repository               : "jingshao-code/jingshao-code.github.io"
 google_scholar_stats_use_cdn : true
