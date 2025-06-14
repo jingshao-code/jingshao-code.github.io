@@ -21,7 +21,7 @@ redirect_from:
 
 I’m a graduate student in **Computer Software Engineering** at [**Northeastern University – College of Engineering**](https://coe.northeastern.edu/), with hands-on experience in **machine learning**, **multi-modal model safety**, and **end-to-end AI system development**.
 
-My research has explored **audio-based jailbreak attacks** on **Large Audio Language Models (LALMs)**, where I analyzed model vulnerabilities and constructed adversarial audio prompts. I’ve also worked on **World Models** for humanoid robot planning and the **safety evaluation of Visual-Language-Action (VLA) systems**, focusing on their deployment in real-world environments.
+My research has explored **audio-based jailbreak attacks** on **LALMs**, where I analyzed model vulnerabilities and constructed adversarial audio prompts. I’ve also worked on **World Models** for humanoid robot planning and the **safety evaluation of VLA systems**, focusing on their deployment in real-world environments.
 
 In industry-facing projects, I contributed to a stealth-stage AI startup, developing **AI-powered audio systems** and integrating ML models into scalable infrastructure to support **real-time interaction**. I am also a **Google Summer of Code (GSoC) 2025** contributor, working on **secure Flutter engine integration**.
 
