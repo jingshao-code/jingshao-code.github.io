@@ -51,6 +51,8 @@ Le Yang, Yixuan Yan, **Jing Shao**, Hao Cheng, Fan Li
 
 - **Academic Impact**: This work proposes an energy-based active learning framework to close the domain gap between 64-beam and 16-beam LiDARs, enabling knowledge transfer with minimal labeled data.
 - **Practical Impact**: Our method significantly reduces annotation cost and achieves high-performance 3D object detection on 16-beam LiDAR with only a small portion of labeled samples.
+</div>
+</div>
 
 
 # 🎖 Honors and Awards
