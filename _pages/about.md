@@ -19,14 +19,16 @@ redirect_from:
 
 ## 👋 Hi, I'm Jing Shao.
 
-Previously, I researched jailbreak attacks against **LALMs**, analyzing model vulnerabilities and designing audio-based adversarial inputs.
+I’m a graduate student in **Computer Software Engineering** at [**Northeastern University – College of Engineering**](https://coe.northeastern.edu/), with hands-on experience in **machine learning**, **multi-modal model safety**, and **end-to-end AI system development**.
 
-Currently, my work centers on:
-- **World Models** for humanoid robot planning  
-- **Safety evaluation** of VLA systems  
-- **Open-source Flutter engine development** through **Google Summer of Code (GSoC) 2025**
+My research has explored **audio-based jailbreak attacks** on **Large Audio Language Models (LALMs)**, where I analyzed model vulnerabilities and constructed adversarial audio prompts. I’ve also worked on **World Models** for humanoid robot planning and the **safety evaluation of Visual-Language-Action (VLA) systems**, focusing on their deployment in real-world environments.
 
-I’m particularly interested in **Embodied AI**, especially its intersection with safety, planning, and real-world deployment.
+In industry-facing projects, I contributed to a stealth-stage AI startup, developing **AI-powered audio systems** and integrating ML models into scalable infrastructure to support **real-time interaction**. I am also a **Google Summer of Code (GSoC) 2025** contributor, working on **secure Flutter engine integration**.
+
+Driven by a passion for **embodied AI** and its safe real-world applications, I aim to build **human-centered, trustworthy intelligent systems**.  
+📌 I’m actively seeking **Fall 2025 internship or full-time roles** in **Machine Learning Engineering**, **Robotics**, **Applied AI**, or **Software Development**.
+Feel free to reach out or connect!
+
 
 
 # 🔥 News
