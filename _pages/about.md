@@ -27,7 +27,7 @@ In industry-facing projects, I contributed to a stealth-stage AI startup, develo
 
 Driven by a passion for **embodied AI** and its safe real-world applications, I aim to build **human-centered, trustworthy intelligent systems**.  
 
-📌 I’m actively seeking **Fall 2025 internship or full-time roles** in **Machine Learning Engineering**, **Robotics**, **Applied AI**, or **Software Development**.
+##📌 I’m actively seeking **Fall 2025 internship or full-time roles** in **Machine Learning Engineering**, **Robotics**, **Applied AI**, or **Software Development**.
 Feel free to reach out or connect!
 
 
@@ -64,7 +64,7 @@ Le Yang, Yixuan Yan, **Jing Shao**, Hao Cheng, Fan Li
 # 📖 Educations
 - *Jan 2024 – Apr 2026*, M.S., Computer Software Engineering, Northeastern University.
 
-# 📣 Talks & Conferences
+# 📣 Invited Talks
 - *Jun 2025*, Attending **AWS re:Inforce 2025**, Philadelphia
 - *Dec 2024*, Attending **AWS re:Invent 2024**, Las Vegas  
 - *Oct 2024*, Presenting research at **MobiCom 2024**, Washington D.C. 
