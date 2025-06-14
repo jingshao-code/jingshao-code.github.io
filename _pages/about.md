@@ -26,6 +26,7 @@ My research has explored **audio-based jailbreak attacks** on **Large Audio Lang
 In industry-facing projects, I contributed to a stealth-stage AI startup, developing **AI-powered audio systems** and integrating ML models into scalable infrastructure to support **real-time interaction**. I am also a **Google Summer of Code (GSoC) 2025** contributor, working on **secure Flutter engine integration**.
 
 Driven by a passion for **embodied AI** and its safe real-world applications, I aim to build **human-centered, trustworthy intelligent systems**.  
+
 📌 I’m actively seeking **Fall 2025 internship or full-time roles** in **Machine Learning Engineering**, **Robotics**, **Applied AI**, or **Software Development**.
 Feel free to reach out or connect!
 
