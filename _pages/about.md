@@ -19,7 +19,7 @@ redirect_from:
 
 ## 👋 Hi, I'm Jing Shao.
 
-Previously, I researched **jailbreak attacks against **LALMs**, analyzing model vulnerabilities and designing audio-based adversarial inputs.
+Previously, I researched jailbreak attacks against **LALMs**, analyzing model vulnerabilities and designing audio-based adversarial inputs.
 
 Currently, my work centers on:
 - **World Models** for humanoid robot planning  
@@ -51,7 +51,7 @@ I’m particularly interested in **Embodied AI**, especially its intersection wi
 
 # 🎖 Honors and Awards
 - *2025.05* Awarded **AWS All Builders Welcome Grant** re:Inforce
-- *2024.12* GSoC 2025 Contributor & **Flutter GitHub Organization Member**
+- *2025.05* GSoC 2025 Contributor & **Flutter GitHub Organization Member**
 - *2024.09* Awarded **AWS All Builders Welcome Grant** reinvent
 
 # 📖 Educations
