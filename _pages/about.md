@@ -33,8 +33,7 @@ Feel free to reach out or connect!
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- **May 2025** — 🎉 Awarded the **AWS re:Inforce 2025 Grant** for contributions to AI safety and open-source.
 
 # 📝 Publications 
 
