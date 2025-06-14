@@ -37,6 +37,23 @@ Feel free to reach out or connect!
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/nips.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Jailbreak-AudioBench: In-Depth Evaluation and Analysis of Jailbreak Threats for Large Audio Language Models](https://arxiv.org/abs/2501.13772)
+
+Hao Cheng, Erjia Xiao, **Jing Shao**, Yichi Wang, Le Yang, Chao Shen, Philip Torr, Jindong Gu, Renjing Xu
+
+<!--[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
+- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**-->
+
+- **Academic Impact**: This work introduces Jailbreak-AudioBench, the first comprehensive benchmark for evaluating jailbreak threats against Large Audio Language Models (LALMs). It presents a unified toolbox, curated dataset, and evaluation pipeline to systematically study how audio-specific hidden semantics—such as tone, intonation, background noise, and emotion—can be used to compromise model safety. This work fills a major gap in multimodal LLM security research and lays the foundation for future defense strategies.
+- **Practical Impact**: This work introduces Jailbreak-AudioBench, the first comprehensive benchmark for evaluating jailbreak threats against Large Audio Language Models (LALMs). It presents a unified toolbox, curated dataset, and evaluation pipeline to systematically study how audio-specific hidden semantics—such as tone, intonation, background noise, and emotion—can be used to compromise model safety. This work fills a major gap in multimodal LLM security research and lays the foundation for future defense strategies.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobiCom 2024</div><img src='images/mobicom.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
