@@ -37,7 +37,7 @@ Feel free to reach out or connect!
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/nips.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/nips.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Jailbreak-AudioBench: In-Depth Evaluation and Analysis of Jailbreak Threats for Large Audio Language Models](https://arxiv.org/abs/2501.13772)
