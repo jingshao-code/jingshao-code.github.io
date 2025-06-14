@@ -40,7 +40,7 @@ Feel free to reach out or connect!
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobiCom 2024</div><img src='images/mobicom.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Energy-based Active Learning for Bringing Beam-induced Domain Gap for 3D Object Detection](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Energy-based Active Learning for Bringing Beam-induced Domain Gap for 3D Object Detection](https://dl.acm.org/doi/abs/10.1145/3636534.3694723)
 
 Le Yang, Yixuan Yan, **Jing Shao**, Hao Cheng, Fan Li
 
