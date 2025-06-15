@@ -30,8 +30,8 @@ My research interests center on **embodied AI**, **VLA systems**, and their **sa
 
 ## 📌 I’m actively seeking **Fall 2025 internship or full-time roles** in **Machine Learning Engineering**, **Robotics**, **Applied AI**, or **Software Development**.
 
-[My CV can be found here:](http://jingshao-code.github.io) 
-Feel free to reach out or connect! ✨
+[✨ My CV can be found here,](http://jingshao-code.github.io) 
+Feel free to reach out or connect!!
 
 
 
