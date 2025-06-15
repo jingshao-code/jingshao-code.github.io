@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-## 👋 Hi, I'm Jing Shao.
+## 👋 Hey there! I'm Jing Shao.
 
 I'm a graduate student in **Computer Software Engineering** at [**Northeastern University – College of Engineering**](https://coe.northeastern.edu/), specializing in **machine learning**, **multi-modal model safety**, and **end-to-end AI system development**.
 
