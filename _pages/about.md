@@ -73,9 +73,9 @@ Le Yang, Yixuan Yan, **Jing Shao**, Hao Cheng, Fan Li
 
 
 # 🎖 Honors and Awards
-- *May 2025* Awarded **AWS All Builders Welcome Grant** re:Inforce
-- *May 2025* GSoC 2025 Contributor & **Flutter Organization Member**
-- *Sep 2024* Awarded **AWS All Builders Welcome Grant** re:Invent
+- *May 2025*, Awarded **AWS All Builders Welcome Grant** re:Inforce
+- *May 2025*, GSoC 2025 Contributor & **Flutter Organization Member**
+- *Sep 2024*, Awarded **AWS All Builders Welcome Grant** re:Invent
 
 # 📖 Educations
 - *Jan 2024 – Apr 2026*, M.S., Computer Software Engineering, Northeastern University.
