@@ -23,14 +23,14 @@ I'm a graduate student in **Computer Software Engineering** at [**Northeastern U
 
 My research focuses on **AI safety** and **robustness**. I've explored **audio-based jailbreak attacks** on **LALMs**, developed **World Models** for **humanoid robot planning**, and evaluated **safety** in **VLA systems** for real-world deployment.
 
-🚀 Beyond academia, I contributed to a **stealth-stage AI startup**, developing **AI-powered audio systems** and integrating **ML models** into scalable infrastructure for **real-time interaction**. I'm also a **Google Summer of Code (GSoC) 2025** contributor, working on **secure Flutter engine integration** for the open-source community.
+Beyond academia, I contributed to a **stealth-stage AI startup**, developing **AI-powered audio systems** and integrating **ML models** into scalable infrastructure for **real-time interaction**. I'm also a **Google Summer of Code (GSoC) 2025** contributor, working on **secure Flutter engine integration** for the open-source community.
 
 My research interests center on **embodied AI**, **VLA systems**, and their **safe real-world applications**, to build **human-centered, trustworthy intelligent systems**.
 
 
 ## 📌 I’m actively seeking **Fall 2025 internship or full-time roles** in **Machine Learning Engineering**, **Robotics**, **Applied AI**, or **Software Development**.
 
-[✨ My CV can be found here!](http://jingshao-code.github.io) 
+✨ [My CV can be found here!](http://jingshao-code.github.io) 
 Feel free to reach out or connect!!
 
 
