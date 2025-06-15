@@ -36,7 +36,7 @@ Feel free to reach out or connect!!
 
 
 # 🔥 News
-- **May 2025** — 🎉 Awarded the **AWS re:Inforce 2025 Grant** for contributions to AI safety and open-source.
+- **May 2025** — 🎉 Awarded the **AWS re:Inforce 2025 Grant** for my work in AI safety research.
 
 # 📝 Publications 
 
@@ -76,16 +76,16 @@ Le Yang, Yixuan Yan, **Jing Shao**, Hao Cheng, Fan Li
 
 
 # 🎖 Honors and Awards
-- *May 2025*, Awarded **AWS All Builders Welcome Grant** re:Inforce
-- *May 2025*, GSoC 2025 Contributor & **Flutter Organization Member**
-- *Sep 2024*, Awarded **AWS All Builders Welcome Grant** re:Invent
+- *May 2025*, Awarded **AWS All Builders Welcome Grant** re:Inforce.
+- *May 2025*, GSoC 2025 Contributor & **Flutter Organization Member**.
+- *Sep 2024*, Awarded **AWS All Builders Welcome Grant** re:Invent.
 
 # 📖 Educations
 - *Jan 2024 – Apr 2026*, M.S., Computer Software Engineering, Northeastern University.
 
 # 📣 Talks and Conferences
-- *Jun 2025*, Attending **AWS re:Inforce 2025**, Philadelphia
-- *Dec 2024*, Attending **AWS re:Invent 2024**, Las Vegas  
+- *Jun 2025*, Attending **AWS re:Inforce 2025**, Philadelphia.
+- *Dec 2024*, Attending **AWS re:Invent 2024**, Las Vegas.  
 - *Oct 2024*, Presenting research at **MobiCom 2024**, Washington D.C. 
 
 # 💻 Internships
