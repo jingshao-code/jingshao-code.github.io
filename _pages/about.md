@@ -83,7 +83,7 @@ Le Yang, Yixuan Yan, **Jing Shao**, Hao Cheng, Fan Li
 # 📖 Educations
 - *Jan 2024 – Apr 2026*, M.S., Computer Software Engineering, Northeastern University.
 
-# 📣 Invited Talks
+# 📣 Talks and Conferences
 - *Jun 2025*, Attending **AWS re:Inforce 2025**, Philadelphia
 - *Dec 2024*, Attending **AWS re:Invent 2024**, Las Vegas  
 - *Oct 2024*, Presenting research at **MobiCom 2024**, Washington D.C. 
