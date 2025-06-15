@@ -37,7 +37,7 @@ Feel free to reach out or connect!!
 
 # 🔥 News
 - **May 2025** — 🎉 Awarded the **AWS re:Inforce 2025 Grant** for my work in AI safety research.
-- **May 2025** — 🎉 *Selected as a **Google Summer of Code** 2025 Contributor*. 
+- **May 2025** — 🎉 Selected as a **Google Summer of Code** 2025 Contributor. 
 
 # 📝 Publications 
 
