@@ -28,7 +28,7 @@ Beyond academia, I contributed to a **stealth-stage AI startup**, developing **A
 My research interests center on **embodied AI**, **VLA systems**, and their **safe real-world applications**, to build **human-centered, trustworthy intelligent systems**.
 
 
-📌 **I’m actively seeking a Fall 2025 internship or full-time roles in Machine Learning Engineering, Robotics, Applied AI, or Software Development.**
+## 📌 I’m actively seeking a Fall 2025 internship or full-time roles in Machine Learning Engineering, Robotics, Applied AI, or Software Development.
 
 ✨ [My CV can be found here!](http://jingshao-code.github.io) 
 Feel free to reach out or connect!!
