@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'Demystifying Flutter Architecture: Understanding iOS Menu System Through a Restaurant Metaphor'
 date: 2025-07-24
 permalink: /posts/2025/07/flutter-architecture-restaurant-metaphor/

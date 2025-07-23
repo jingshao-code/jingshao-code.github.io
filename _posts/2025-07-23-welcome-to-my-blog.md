@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'Welcome to My Blog!'
 date: 2025-07-23
 permalink: /posts/2025/07/welcome-to-my-blog/

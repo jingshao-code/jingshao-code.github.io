@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <div id="main" role="main" style="margin-left: 0; max-width: 100%;">
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" style="max-width: 800px; margin: 0 auto; padding: 2em;">
+        <header class="post-header">
+          <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+          <p class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+              {{ page.date | date: "%B %d, %Y" }}
+            </time>
+          </p>
+          <p style="margin-bottom: 2em;">
+            <a href="/blogs/" style="color: #3792cb;">← Back to all posts</a>
+          </p>
+        </header>
+
+        <div class="post-content" itemprop="articleBody" style="line-height: 1.8; font-size: 1.1em;">
+          {{ content }}
+        </div>
+
+        {% if page.tags %}
+        <div class="post-tags" style="margin-top: 3em; padding-top: 2em; border-top: 1px solid #eee;">
+          <strong>Tags:</strong>
+          {% for tag in page.tags %}
+            <span style="background: #f0f0f0; padding: 0.2em 0.6em; margin: 0.2em; display: inline-block; border-radius: 3px;">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </article>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>

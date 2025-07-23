@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <div id="main" role="main" style="margin-left: 0; max-width: 100%;">
+      <div class="wrapper" style="max-width: 800px; margin: 0 auto; padding: 2em;">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>

@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: blog-list
 title: "Blogs"
 permalink: /blogs/
-author_profile: true
 ---
 
 <span class='anchor' id='blogs'></span>
