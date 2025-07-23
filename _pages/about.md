@@ -97,7 +97,7 @@ Le Yang, Yixuan Yan, **Jing Shao**, Hao Cheng, Fan Li
 
 # 📝 Blogs
 
-I write about machine learning, software engineering, Flutter development, and my journey in tech. 
+I write about my journey in tech and my thoughts in life! 
 
 [**View all blog posts →**](/blogs/)
 

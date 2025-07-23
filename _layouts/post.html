@@ -3,6 +3,69 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <style>
+      .post-content pre {
+        font-size: 0.9em;
+        background-color: #f6f8fa;
+        padding: 1.2em;
+        border-radius: 6px;
+        overflow-x: auto;
+        line-height: 1.5;
+        max-width: 100%;
+      }
+      .post-content code {
+        font-size: 0.9em;
+        background-color: #f3f4f6;
+        padding: 0.1em 0.3em;
+        border-radius: 3px;
+      }
+      .post-content pre code {
+        background-color: transparent;
+        padding: 0;
+      }
+      .post-content a {
+        color: #0366d6;
+        text-decoration: none;
+      }
+      .post-content a:hover {
+        text-decoration: underline;
+      }
+      .post-content h2 {
+        margin-top: 2em;
+        margin-bottom: 1em;
+        padding-bottom: 0.3em;
+        border-bottom: 1px solid #eee;
+      }
+      .post-content h3 {
+        margin-top: 1.5em;
+        margin-bottom: 0.8em;
+      }
+      .post-content p {
+        margin-bottom: 1.2em;
+      }
+      .post-content ul, .post-content ol {
+        margin-bottom: 1.2em;
+        padding-left: 2em;
+      }
+      .post-content li {
+        margin-bottom: 0.5em;
+      }
+      /* Responsive design for different screen sizes */
+      @media (max-width: 1280px) {
+        .post {
+          max-width: 90% !important;
+        }
+      }
+      @media (max-width: 768px) {
+        .post {
+          padding: 1em !important;
+          max-width: 100% !important;
+        }
+        .post-content {
+          font-size: 1em !important;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -11,7 +74,7 @@
     {% include masthead.html %}
 
     <div id="main" role="main" style="margin-left: 0; max-width: 100%;">
-      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" style="max-width: 800px; margin: 0 auto; padding: 2em;">
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" style="max-width: 1200px; margin: 0 auto; padding: 2em;">
         <header class="post-header">
           <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
           <p class="post-meta">
