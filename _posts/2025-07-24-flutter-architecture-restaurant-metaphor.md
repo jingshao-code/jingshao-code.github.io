@@ -35,7 +35,7 @@ Here's a visual representation of how the system works:
 [Flutter Engine - Objective-C]
     ↓ (FlutterPlatformPlugin.mm → FlutterTextInputPlugin.mm)
 [iOS Native System Menu]
-    ↓ (UIMenuController)
+    ↓ (UIEditMenuInteraction - iOS 16.0+)
 [User sees the menu!]
 ```
 
@@ -76,28 +76,80 @@ In PR [#170969](https://github.com/flutter/flutter/pull/170969), I had to add th
 Just like adding a new dish requires coordination between the dining room and kitchen, here's how I fixed it:
 
 #### 1. Update the Menu (Framework Side)
-First, I created a new menu item class in the Framework:
+Now here's where it gets interesting! Adding Live Text to our restaurant menu isn't as simple as just writing it on the board. We need **two special cards** - think of them like a fancy restaurant that has both a display menu and order cards!
+
+**The Recipe Card (in text_input.dart):**
 ```dart
-// Like adding a new item to the restaurant's menu board
-class IOSSystemContextMenuItemDataLiveText extends IOSSystemContextMenuItemData {
+// This is like the recipe card the kitchen needs to know how to make the dish
+final class IOSSystemContextMenuItemDataLiveText extends IOSSystemContextMenuItemData {
   const IOSSystemContextMenuItemDataLiveText();
-  // This tells the waiter: "We now serve Live Text!"
+  
+  @override
+  String get _jsonType => 'captureTextFromCamera';
+  // This is the "dish code" - tells the kitchen exactly what to cook!
 }
 ```
 
-#### 2. Kitchen Preparation (Engine Side)
-Then in the kitchen (`FlutterTextInputPlugin.mm`), I had to teach the chef how to prepare this dish:
-```objc
-// The chef now knows how to make Live Text when ordered
-if ([item.type isEqualToString:kIOSActionTypeLiveText]) {
-  // Prepare the Live Text dish
-  return [self liveTextAction];
+**The Menu Display Card (in system_context_menu.dart):**
+```dart
+// This is what the customer sees on the menu
+final class IOSSystemContextMenuItemLiveText extends IOSSystemContextMenuItem {
+  const IOSSystemContextMenuItemLiveText();
+  
+  @override
+  IOSSystemContextMenuItemData getData(WidgetsLocalizations localizations) {
+    return const IOSSystemContextMenuItemDataLiveText();
+    // When ordered, hand over the recipe card to the kitchen!
+  }
 }
 ```
+
+Why two cards? Well, it's like having a beautiful menu photo for customers (the widget) and a detailed recipe for the chef (the data). The magic happens when:
+- The customer points at the menu item (widget shows Live Text option)
+- The waiter takes the order and clips the recipe card to it (getData returns the data object)
+- The kitchen sees the dish code `'captureTextFromCamera'` and knows exactly what to prepare!
+
+#### 2. Kitchen Preparation (Engine Side)
+Time to head into the kitchen! Our head chef (`FlutterTextInputPlugin.mm`) needs to learn this new recipe. But wait - there's a twist! The chef needs to check their iOS cookbook version first (spoiler: Live Text only appears in cookbook version 15.0 and up!).
+
+**Teaching the Chef the New Recipe:**
+```objc
+// Chef checks the order ticket for our special dish code
+if ([type isEqualToString:@"captureTextFromCamera"]) {
+    if (@available(iOS 15.0, *)) {
+        // "Ah yes, I know this dish! Let me add it to today's specials"
+        [self addBasicEditingCommandToItems:items
+            type:type
+            selector:@selector(captureTextFromCamera:)
+            suggestedMenu:suggestedMenu];
+    }
+    // If cookbook is too old: "Sorry, we don't have that recipe yet!"
+}
+```
+
+**Chef's Capability Check:**
+```objc
+// Customer asks: "Can you make Live Text?" Chef checks their skills!
+- (BOOL)canPerformAction:(SEL)action withSender:(id)sender {
+    if (action == @selector(captureTextFromCamera:)) {
+        if (@available(iOS 15.0, *)) {
+            return YES;  // "Yes! I learned that in iOS cookbook 15.0!"
+        }
+        return NO;  // "Sorry, my cookbook is too old for that dish"
+    }
+    return [super canPerformAction:action withSender:sender];
+}
+```
+
+See that `@"captureTextFromCamera"` string? That's our dish code from the recipe card! It's like magic:
+- The waiter shouts into the kitchen: "Order for dish code 'captureTextFromCamera'!"
+- The chef hears it and thinks: "Ah, that's the iOS special `@selector(captureTextFromCamera:)`!"
+- But first, chef checks the cookbook version - "iOS 15.0 or newer? Good to go!"
 
 #### 3. Serving the Dish
 The beauty of this fix? Once both the Framework (waiter) and Engine (kitchen) knew about Live Text, iOS users could once again enjoy this feature in their text field menus!
 
+And that's how we brought Live Text back to the menu! But hold on - our restaurant story isn't over yet...
 
 ## Bonus: What Happens When Users Click? (The Reverse Process)
 
@@ -109,7 +161,7 @@ When you click on a Flutter input field, this event stays entirely in the Dart w
 ### Native Menu Button Clicks
 But when you click a native menu button (like "Copy" or "Look Up"), something different happens:
 
-1. **iOS Captures First**: The menu is actually a native `UIMenuController` element drawn by iOS itself, not by Flutter. So iOS captures the click event first - it's like the customer directly telling the kitchen staff what they want, bypassing the waiter!
+1. **iOS Captures First**: The menu is actually a native `UIEditMenuInteraction` element drawn by iOS itself, not by Flutter. So iOS captures the click event first - it's like the customer directly telling the kitchen staff what they want, bypassing the waiter!
 
 2. **Kitchen Notifies the Waiter**: iOS then uses a **callback mechanism** to notify our "head text chef" (`FlutterTextInputPlugin.mm`): "Hey, the customer at table 7 just ordered the 'Look Up' special!"
 
@@ -120,6 +172,10 @@ But when you click a native menu button (like "Copy" or "Look Up"), something di
 This completes the entire interaction loop - from customer order to kitchen preparation to serving the final dish!
 
 ---
+
+## Behind the Kitchen Doors: Finding Your Way Around
+
+Now that you've seen how our Flutter restaurant operates, you might be thinking: "This is great, but how do I find my way around this massive kitchen?" Don't worry - I've got some chef's secrets to share!
 
 ## Practical Tips: How to Find These Files?
 
@@ -141,6 +197,14 @@ You don't need to memorize full filenames. You need to learn how to **deduce** a
 This is a more advanced technique. In your IDE, use "global search" on a method name (like `showSystemContextMenu`) to find related files.
 
 You can jump from an Engine method step by step to see who calls it, tracing all the way back to the Framework layer. Or vice versa. This helps you build a complete view of the call chain.
+
+## The Complete Live Text Dining Experience
+
+Why all this complexity? Well, it's like running a restaurant that serves both local dishes (iOS native features) and international cuisine (cross-platform Flutter features). The restaurant (your app) needs to:
+- Keep the menu flexible (Framework stays platform-agnostic)
+- Let specialized chefs handle local dishes (Engine handles iOS-specific stuff)
+- Use a good communication system (Platform Channels as the walkie-talkie)
+- Have clear dish codes (those `_jsonType` strings are the universal language!)
 
 ## Deep Understanding
 
