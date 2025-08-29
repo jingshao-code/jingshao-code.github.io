@@ -21,14 +21,12 @@ redirect_from:
 
 I'm a graduate student in **Computer Software Engineering** at [**Northeastern University – College of Engineering**](https://coe.northeastern.edu/), specializing in **machine learning**, **multi-modal model safety**, and **end-to-end AI system development**.
 
-My research focuses on making generative and embodied AI systems more trustworthy, robust, and efficient, aiming for reliable performance in real-world scenarios
+My research focuses on making generative and embodied AI systems more trustworthy, robust, and efficient, aiming for reliable performance in real-world scenarios.
 
 Beyond academia, I contributed to a **stealth-stage AI startup**, developing **AI-powered audio systems** and integrating **ML models** into scalable infrastructure for **real-time interaction**. I'm also a **Google Summer of Code (GSoC) 2025** contributor, working on **secure Flutter engine integration** for the open-source community.
 
-My research interests center on **embodied AI**, **VLA systems**, and their **safe real-world applications**, to build **human-centered, trustworthy intelligent systems**.
 
-
-## 📌 I’m actively seeking a Fall 2025 internship or full-time roles in Machine Learning Engineering, Robotics, Applied AI, or Software Development.
+## 📌 I'm actively seeking Research Assistant and PhD positions.
 
 ✨ [My CV can be found here!](http://jingshao-code.github.io) 
 Feel free to reach out or connect!!
@@ -36,6 +34,7 @@ Feel free to reach out or connect!!
 
 
 # 🔥 News
+- *Aug 2025* — 🎉 Selected as a **Mentor** for **AWS re:Invent 2025**, mentoring 10 ABW Grant participants.
 - *May 2025* — 🎉 Awarded the **AWS re:Inforce 2025 Grant** for my work in AI safety research.
 - *May 2025* — 🎉 Selected as a **Google Summer of Code** 2025 Contributor. 
 
