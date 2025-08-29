@@ -11,7 +11,7 @@ tags:
   - engine
 ---
 
-![Flutter Restaurant Architecture - Using Live Text Feature as Example](/images/framework.png)
+![Flutter Restaurant Architecture - Using Live Text Feature as Example](images/framework.png)
 
 Let's use a restaurant kitchen metaphor to understand how Flutter's menu system works, specifically the complex interactions between iOS app, Framework, and Engine! — Inspired by Justin and Huan
 
