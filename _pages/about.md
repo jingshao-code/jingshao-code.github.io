@@ -34,6 +34,7 @@ Feel free to reach out or connect!!
 
 
 # 🔥 News
+- *Sep 2025* — 🎉  One paper accepted at **NeurIPS 2025**.
 - *Aug 2025* — 🎉 Selected as a **Mentor** for **AWS re:Invent 2025**, mentoring 10 ABW Grant participants.
 - *May 2025* — 🎉 Awarded the **AWS re:Inforce 2025 Grant** for my work in AI safety research.
 - *May 2025* — 🎉 Selected as a **Google Summer of Code** 2025 Contributor. 
