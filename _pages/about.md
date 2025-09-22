@@ -23,7 +23,7 @@ I'm a graduate student in **Computer Software Engineering** at [**Northeastern U
 
 My research focuses on **making generative and embodied AI systems more trustworthy, robust, and efficient, aiming for reliable performance in real-world scenarios**.
 
-Beyond academia, I contributed to a **stealth-stage AI startup**, developing **AI-powered audio systems** and integrating **ML models** into scalable infrastructure for **real-time interaction**. I'm also a **Google Summer of Code (GSoC) 2025** contributor, working on **secure Flutter engine integration** for the open-source community.
+Beyond academia, I contributed to a **stealth-stage AI startup**, developing **AI-powered audio systems** and integrating **ML models** into scalable infrastructure for **real-time interaction**. I'm also an **open-source developer**, collaborating with **Google's Flutter team** to contribute to Flutter's **framework and engine**.
 
 
 ## 📌 I’m actively seeking Research Assistant and PhD position.
