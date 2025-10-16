@@ -66,11 +66,10 @@
 
         img {
             width: 100%;
-            height: auto;
-            border-radius: 14px;
-            box-shadow: 0 8px 20px -15px rgba(15, 23, 42, 0.8);
-            object-fit: contain;
-            background: #f8fafc;
+            aspect-ratio: 3 / 4;
+            border-radius: 16px;
+            box-shadow: 0 18px 40px -28px rgba(15, 23, 42, 0.75);
+            object-fit: cover;
         }
     }
     
@@ -91,6 +90,7 @@
         .paper-box-text{
             padding-left: 2.5em;
             flex: 1;
+            max-width: 520px;
         }
 
     }
