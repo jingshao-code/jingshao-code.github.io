@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1760600434674,
@@ -20,6 +20,14 @@
                 {
                     "date": 1760601451514,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,13 +111,13 @@\n     margin-top: -$scroll_offset;\n }\n \n .badge {\n-    padding: 0.30rem 1.0rem;\n+    padding: 0.25rem 0.8rem;\n     position: absolute;\n     top: 0.5em;\n     left: 2em;\n-    transform: translate(-3em, -55%);\n+    transform: translate(-2.5em, -40%);\n     color: #ffffff;\n     background: linear-gradient(180deg, #0e3a8a 0%, #0b3085 100%);\n     font-size: .8em;\n     font-weight: 600;\n"
+                },
+                {
+                    "date": 1760602396174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n     flex-direction: column;\n     align-items: flex-start;\n     gap: 1.5em;\n     padding: 2em;\n-    margin-bottom: 1.75em;\n+    margin-bottom: 1.5em;\n     background: #ffffff;\n     border: 1px solid #e5e7eb;\n     border-radius: 18px;\n     box-shadow: 0 20px 35px -25px rgba(15, 23, 42, 0.65);\n"
+                },
+                {
+                    "date": 1760602628494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,8 +77,9 @@\n     }\n     \n     .paper-box-text{\n         width: 100%;\n+        text-align: center; \n     }\n     \n     @include breakpoint($medium) {\n         flex-direction: row;\n"
                 }
             ],
             "date": 1760600434674,
