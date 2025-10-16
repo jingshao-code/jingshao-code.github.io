@@ -44,9 +44,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1.75em;
-    padding: 2em 2.25em;
-    margin-bottom: 1.75em;
+    gap: 1.5em;
+    padding: 2em;
+    margin-bottom: 1.5em;
     background: #ffffff;
     border: 1px solid #e5e7eb;
     border-radius: 18px;
@@ -78,8 +78,6 @@
     
     .paper-box-text{
         width: 100%;
-        max-width: 520px;
-        margin: 0 auto;
     }
     
     @include breakpoint($medium) {
@@ -95,9 +93,7 @@
         .paper-box-text{
             padding-left: 2.5em;
             flex: 1;
-            max-width: 520px;
-            margin: 0;
-
+            max-width: 480px;
         }
 
     }

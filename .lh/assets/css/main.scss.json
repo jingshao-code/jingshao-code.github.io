@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 7,
             "patches": [
                 {
                     "date": 1760600434674,
@@ -28,6 +28,14 @@
                 {
                     "date": 1760602628494,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,8 +77,9 @@\n     }\n     \n     .paper-box-text{\n         width: 100%;\n+        text-align: center; \n     }\n     \n     @include breakpoint($medium) {\n         flex-direction: row;\n"
+                },
+                {
+                    "date": 1760610358660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,9 +77,8 @@\n     }\n     \n     .paper-box-text{\n         width: 100%;\n-        text-align: center; \n     }\n     \n     @include breakpoint($medium) {\n         flex-direction: row;\n"
+                },
+                {
+                    "date": 1760610498156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,11 +43,11 @@\n .paper-box {\n     display: flex;\n     flex-direction: column;\n     align-items: flex-start;\n-    gap: 1.5em;\n-    padding: 2em;\n-    margin-bottom: 1.5em;\n+    gap: 1.75em;\n+    padding: 2em 2.25em;\n+    margin-bottom: 1.75em;\n     background: #ffffff;\n     border: 1px solid #e5e7eb;\n     border-radius: 18px;\n     box-shadow: 0 20px 35px -25px rgba(15, 23, 42, 0.65);\n@@ -77,8 +77,10 @@\n     }\n     \n     .paper-box-text{\n         width: 100%;\n+        max-width: 520px;\n+        margin: 0 auto;\n     }\n     \n     @include breakpoint($medium) {\n         flex-direction: row;\n@@ -92,9 +94,11 @@\n         \n         .paper-box-text{\n             padding-left: 2.5em;\n             flex: 1;\n-            max-width: 480px;\n+            max-width: 520px;\n+            margin: 0;\n+\n         }\n \n     }\n \n"
                 }
             ],
             "date": 1760600434674,
