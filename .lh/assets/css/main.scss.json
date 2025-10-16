@@ -1,0 +1,18 @@
+{
+    "sourceFile": "assets/css/main.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1760600434674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1760600434674,
+            "name": "Commit-0",
+            "content": "---\n---\n\n/*\n *    Minimal Mistakes Jekyll Theme\n *\n *  - Michael Rose\n *  - mademistakes.com\n *  - https://twitter.com/mmistakes\n *\n*/\n\n@import \"vendor/breakpoint/breakpoint\"; // media query mixins\n@import \"variables\";\n@import \"mixins\";\n@import \"vendor/susy/susy\";\n\n@import \"reset\";\n@import \"base\";\n\n@import \"utilities\";\n@import \"animations\";\n@import \"tables\";\n@import \"buttons\";\n@import \"notices\";\n@import \"masthead\";\n@import \"navigation\";\n@import \"footer\";\n@import \"syntax\";\n\n@import \"forms\";\n\n@import \"page\";\n@import \"archive\";\n@import \"sidebar\";\n\n@import \"vendor/font-awesome/fontawesome\";\n@import \"vendor/font-awesome/solid\";\n@import \"vendor/font-awesome/brands\";\n@import \"vendor/magnific-popup/magnific-popup\";\n@import \"print\";\n\n.paper-box {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    gap: 1.5em;\n    padding: 2em;\n    margin-bottom: 1.75em;\n    background: #ffffff;\n    border: 1px solid #e5e7eb;\n    border-radius: 18px;\n    box-shadow: 0 20px 35px -25px rgba(15, 23, 42, 0.65);\n    position: relative;\n\n    .paper-box-image{\n        justify-content: center;\n        display: flex;\n        width: 100%;\n        max-width: 460px;\n        position: relative;\n        margin: 0 auto;\n\n        > div {\n            width: 100%;\n            border-radius: 14px;\n            overflow: hidden;\n            position: relative;\n        }\n\n        img {\n            width: 100%;\n            height: auto;\n            display: block;\n            display: block;\n        }\n    }\n    \n    .paper-box-text{\n        width: 100%;\n    }\n    \n    @include breakpoint($medium) {\n        flex-direction: row;\n\n        .paper-box-image{\n            justify-content: flex-start;\n            margin: 0;\n            flex: 0 0 360px;\n            max-width: 360px;\n        }\n        \n        .paper-box-text{\n            padding-left: 2.5em;\n            flex: 1;\n            max-width: 480px;\n        }\n\n    }\n\n\n}\n\n$scroll_offset : 2em;\nh1:before, .anchor:before { \n    content: ''; \n    display: block; \n    position: relative; \n    width: 0; \n    height: $scroll_offset; \n    margin-top: -$scroll_offset;\n}\n\n.badge {\n    padding: 0.35rem 1.1rem;\n    position: absolute;\n    top: 0;\n    left: 2em;\n    transform: translate(-4em, -55%);\n    color: #ffffff;\n    background: linear-gradient(180deg, #0e3a8a 0%, #0b3085 100%);\n    font-size: .8em;\n    font-weight: 600;\n    border-radius: 6px 6px 6px 0;\n    box-shadow: 0 12px 24px -18px rgba(15, 23, 42, 0.9);\n    letter-spacing: 0.02em;\n    z-index: 2;\n}\n\n.paper-links {\n    margin-top: 1.2em;\n    font-weight: 600;\n    color: #2563eb;\n}\n\n.paper-links a {\n    color: inherit;\n    text-decoration: none;\n    transition: color 0.2s ease;\n}\n\n.paper-links a:hover {\n    color: #1d4ed8;\n    text-decoration: underline;\n}\n"
+        }
+    ]
+}
