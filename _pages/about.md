@@ -42,7 +42,7 @@ Feel free to reach out or connect!!
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/nips.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class="badge">NeurIPS 2025</div><div class='paper-box-image'><div><img src='images/nips.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Jailbreak-AudioBench: In-Depth Evaluation and Analysis of Jailbreak Threats for Large Audio Language Models**](https://arxiv.org/abs/2501.13772)
@@ -57,7 +57,7 @@ Hao Cheng<sup>*</sup>, Erjia Xiao<sup>*</sup>, **Jing Shao**<sup>*</sup>, Yichi 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/posediff.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class="badge">arXiv</div><div class='paper-box-image'><div><img src='images/posediff.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**PoseDiff: A Unified Diffusion Model Bridging Robot Pose Estimation and Video-to-Action Control**](https://arxiv.org/abs/2509.24591)
@@ -68,10 +68,9 @@ Haozhuo Zhang, Michele Caprio, Jing Shao<sup>*</sup>, Qiang Zhang, Jian Tang, Sh
   <a href="https://arxiv.org/abs/2509.24591">Paper</a> /
   <a href="https://github.com/jingshao-code">GitHub</a>
 </p>
-</div>
-</div>
+</div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MobiCom 2024</div><img src='images/mobicom.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class="badge">MobiCom 2024</div><div class='paper-box-image'><div><img src='images/mobicom.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Energy-based Active Learning for Bringing Beam-induced Domain Gap for 3D Object Detection**](https://dl.acm.org/doi/abs/10.1145/3636534.3694723)
@@ -82,8 +81,7 @@ Le Yang, Yixuan Yan, **Jing Shao**, Hao Cheng, Fan Li.
   <a href="https://dl.acm.org/doi/abs/10.1145/3636534.3694723">Paper</a> /
   <a href="https://github.com/jingshao-code">GitHub</a>
 </p>
-</div>
-</div>
+</div></div>
 
 
 # 🎖 Honors and Awards
