@@ -47,7 +47,7 @@ Feel free to reach out or connect!!
 
 [**Jailbreak-AudioBench: In-Depth Evaluation and Analysis of Jailbreak Threats for Large Audio Language Models**](https://arxiv.org/abs/2501.13772)
 
-Hao Cheng, Erjia Xiao, **Jing Shao**, Yichi Wang, Le Yang, Chao Shen, Philip Torr, Jindong Gu, Renjing Xu. **NeurIPS 2025**.
+Hao Cheng<sup>*</sup>, Erjia Xiao<sup>*</sup>, **Jing Shao**<sup>*</sup>, Yichi Wang<sup>*</sup>, Le Yang, Chao Shen, Philip Torr, Jindong Gu, Renjing Xu.
 
 <p class="paper-links">
   <a href="https://jingshao-code.github.io">Homepage</a> /
@@ -62,7 +62,7 @@ Hao Cheng, Erjia Xiao, **Jing Shao**, Yichi Wang, Le Yang, Chao Shen, Philip Tor
 
 [**Energy-based Active Learning for Bringing Beam-induced Domain Gap for 3D Object Detection**](https://dl.acm.org/doi/abs/10.1145/3636534.3694723)
 
-Le Yang, Yixuan Yan, **Jing Shao**, Hao Cheng, Fan Li. **MobiCom 2024**.
+Le Yang, Yixuan Yan, **Jing Shao**, Hao Cheng, Fan Li.
 
 <p class="paper-links">
   <a href="https://jingshao-code.github.io">Homepage</a> /

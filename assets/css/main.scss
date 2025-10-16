@@ -56,10 +56,17 @@
         justify-content: center;
         display: flex;
         width: 100%;
+        max-width: 360px;
         position: relative;
+        margin: 0 auto;
+
+        > div {
+            width: 100%;
+        }
+
         img {
             width: 100%;
-            max-width: 400px;
+            aspect-ratio: 4 / 3;
             border-radius: 14px;
             box-shadow: 0 8px 20px -15px rgba(15, 23, 42, 0.8);
             object-fit: cover;
@@ -75,12 +82,14 @@
 
         .paper-box-image{
             justify-content: flex-start;
-            max-width: 35%;
+            margin: 0;
+            flex: 0 0 260px;
+            max-width: 260px;
         }
         
         .paper-box-text{
             padding-left: 2.5em;
-            max-width: 65%;
+            flex: 1;
         }
 
     }
