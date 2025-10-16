@@ -78,8 +78,6 @@
     
     .paper-box-text{
         width: 100%;
-        max-width: 520px;
-        margin: 0 auto;
     }
     
     @include breakpoint($medium) {
@@ -96,7 +94,6 @@
             padding-left: 2.5em;
             flex: 1;
             max-width: 480px;
-            margin: 0;
         }
 
     }
