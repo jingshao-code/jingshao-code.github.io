@@ -62,11 +62,9 @@
 
         > div {
             width: 100%;
-            border-radius: 16px;
-            box-shadow: 0 18px 40px -28px rgba(15, 23, 42, 0.75);
+            border-radius: 14px;
             overflow: hidden;
             position: relative;
-            background: #f8fafc;
         }
 
         img {
@@ -87,8 +85,8 @@
         .paper-box-image{
             justify-content: flex-start;
             margin: 0;
-            flex: 0 0 340px;
-            max-width: 340px;
+            flex: 0 0 360px;
+            max-width: 360px;
         }
         
         .paper-box-text{
@@ -113,14 +111,16 @@ h1:before, .anchor:before {
 }
 
 .badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0.4rem 1rem;
     position: absolute;
-    margin-top: .5em;
-    margin-left: -.5em;
+    top: 0.75em;
+    left: 1.25em;
     color: white;
     background-color: #00369f;
-    font-size: .8em;
+    font-size: .78em;
+    border-radius: 999px;
+    box-shadow: 0 8px 18px -12px rgba(15, 23, 42, 0.8);
+    z-index: 2;
 }
 
 .paper-links {
