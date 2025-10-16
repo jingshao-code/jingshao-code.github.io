@@ -3,11 +3,19 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1760600434674,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1760600829475,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -115,9 +115,9 @@\n     padding: 0.35rem 1.1rem;\n     position: absolute;\n     top: 0;\n     left: 2em;\n-    transform: translate(-4em, -55%);\n+    transform: translate(-3em, -55%);\n     color: #ffffff;\n     background: linear-gradient(180deg, #0e3a8a 0%, #0b3085 100%);\n     font-size: .8em;\n     font-weight: 600;\n"
+                },
+                {
+                    "date": 1760601047407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,11 +111,11 @@\n     margin-top: -$scroll_offset;\n }\n \n .badge {\n-    padding: 0.35rem 1.1rem;\n+    padding: 0.30rem 1.0rem;\n     position: absolute;\n-    top: 0;\n+    top: 0.5em;\n     left: 2em;\n     transform: translate(-3em, -55%);\n     color: #ffffff;\n     background: linear-gradient(180deg, #0e3a8a 0%, #0b3085 100%);\n"
                 }
             ],
             "date": 1760600434674,
