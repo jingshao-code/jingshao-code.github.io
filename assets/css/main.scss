@@ -80,6 +80,7 @@
         width: 100%;
         max-width: 520px;
         margin: 0 auto;
+        text-align: center;
     }
     
     @include breakpoint($medium) {
@@ -96,6 +97,7 @@
             padding-left: 2.5em;
             flex: 1;
             max-width: 480px;
+            text-align: left;
             margin: 0;
         }
 
