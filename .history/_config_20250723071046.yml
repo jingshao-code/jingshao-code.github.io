@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jing Shao"
-description              : "A Thinker. A Learner. Always Curious."
+description              : "Machine Learning Engineer"
 repository               : "jingshao-code/jingshao-code.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,8 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jing Shao"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Northeastern University (U.S.)"
-  location         : 
+  bio              : "Northeastern University"
+  location         : "Bay Area, California"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=cqqQyRYAAAAJ"
