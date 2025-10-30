@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1761696921779,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1761798423267,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n # `jekyll serve`. If you change this file, please restart the server process.\n \n # Site Settings\n title                    : \"Jing Shao\"\n-description              : \"A Thinker. A Learner. Always Curious.\"\n+description              : \"Always Curious.\"\n repository               : \"jingshao-code/jingshao-code.github.io\"\n google_scholar_stats_use_cdn : true\n \n # google analytics\n"
                 }
             ],
             "date": 1761696921779,
