@@ -148,3 +148,31 @@ h1:before, .anchor:before {
     color: #1d4ed8;
     text-decoration: underline;
 }
+
+.clustrmaps-card {
+    float: right;
+    width: min(25%, 260px);
+    min-width: 210px;
+    margin: 0.5rem 0 1.5rem 1.5rem;
+    padding: 0.75rem;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    box-shadow: 0 12px 24px -20px rgba(15, 23, 42, 0.6);
+    text-align: center;
+}
+
+.clustrmaps-card iframe {
+    width: 100% !important;
+    height: 200px !important;
+    border: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .clustrmaps-card {
+        float: none;
+        width: 100%;
+        max-width: 320px;
+        margin: 2rem auto;
+    }
+}

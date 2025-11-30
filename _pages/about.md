@@ -102,18 +102,10 @@ Le Yang, Yixuan Yan, **Jing Shao**, Hao Cheng, Fan Li.
 
 # 📝 Blogs
 
+<div class="clustrmaps-card" aria-label="Visitor map">
+  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=xcNSAixMfIxSiqmq4g3HXJWUsopDqPcbAxp2b-hel-Q&cl=ffffff&w=a" async></script>
+</div>
+
 I write about my journey in tech and my thoughts in life! 
 
 [**View all blog posts →**](/blogs/)
-
-<div class="clustrmaps-container" style="margin-top: 2rem; text-align: center;">
-  <p style="font-weight: 600;">🌎 Visitor Map</p>
-  <iframe
-    src="https://clustrmaps.com/site/1anq1"
-    title="ClustrMaps visitor map"
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"
-    style="width: 100%; max-width: 500px; height: 320px; border: none; overflow: hidden;">
-  </iframe>
-  <p style="font-size: 0.85rem; color: #666;">Powered by <a href="https://clustrmaps.com/site/1anq1" target="_blank" rel="noopener">ClustrMaps</a></p>
-</div>
