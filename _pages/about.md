@@ -102,10 +102,6 @@ Le Yang, Yixuan Yan, **Jing Shao**, Hao Cheng, Fan Li.
 
 # 📝 Blogs
 
-<div class="clustrmaps-card" aria-label="Visitor map">
-  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=xcNSAixMfIxSiqmq4g3HXJWUsopDqPcbAxp2b-hel-Q&cl=ffffff&w=a" async></script>
-</div>
-
 I write about my journey in tech and my thoughts in life! 
 
 [**View all blog posts →**](/blogs/)

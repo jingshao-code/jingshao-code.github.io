@@ -149,30 +149,32 @@ h1:before, .anchor:before {
     text-decoration: underline;
 }
 
-.clustrmaps-card {
-    float: right;
-    width: min(25%, 260px);
-    min-width: 210px;
-    margin: 0.5rem 0 1.5rem 1.5rem;
-    padding: 0.75rem;
-    background: #fff;
+.visitor-map-widget {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1rem;
+    width: 220px;
+    max-width: 40vw;
+    height: 150px;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.95);
     border: 1px solid #e5e7eb;
     border-radius: 14px;
-    box-shadow: 0 12px 24px -20px rgba(15, 23, 42, 0.6);
-    text-align: center;
+    box-shadow: 0 20px 35px -25px rgba(15, 23, 42, 0.8);
+    overflow: hidden;
+    z-index: 100;
 }
 
-.clustrmaps-card iframe {
+.visitor-map-widget > * {
     width: 100% !important;
-    height: 200px !important;
-    border: 0;
+    height: 100% !important;
 }
 
 @media screen and (max-width: 768px) {
-    .clustrmaps-card {
-        float: none;
-        width: 100%;
-        max-width: 320px;
-        margin: 2rem auto;
+    .visitor-map-widget {
+        width: 160px;
+        height: 120px;
+        bottom: 1rem;
+        right: 0.5rem;
     }
 }
