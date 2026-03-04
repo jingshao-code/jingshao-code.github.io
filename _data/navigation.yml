@@ -24,5 +24,5 @@ main:
   - title: "Blogs"
     url: "/blogs/"
 
-  - title: "CV"
-    url: "/files/JingShao_CV.pdf"
+#  - title: "CV"
+#    url: "/files/JingShao_CV.pdf"
